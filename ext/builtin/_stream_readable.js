@@ -23,7 +23,7 @@ module.exports = Readable;
 Readable.ReadableState = ReadableState;
 
 var EE = require('events').EventEmitter;
-var Stream = require('stream');
+var Stream = require('_base_stream');
 var Buffer = require('buffer').Buffer;
 var timers = require('timers');
 var util = require('util');
