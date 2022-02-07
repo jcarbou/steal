@@ -106,6 +106,7 @@
     "tty": "tty-browserify",
     "url": "./ext/builtin/url.js",
     "util": "./ext/builtin/util.js",
+    "_base_stream": "./ext/builtin/_base_stream.js",
     "_stream_readable": "./ext/builtin/_stream_readable.js",
     "_stream_writable": "./ext/builtin/_stream_writable.js",
     "_stream_duplex": "./ext/builtin/_stream_duplex.js",
