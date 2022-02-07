@@ -27,7 +27,7 @@ module.exports = Writable;
 Writable.WritableState = WritableState;
 
 var util = require('util');
-var Stream = require('stream');
+var Stream = require('_base_stream');
 var timers = require('timers');
 var Buffer = require('buffer').Buffer;
 
